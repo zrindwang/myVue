@@ -9,5 +9,6 @@ export default function h(tag,props,...children){
             return vnode(undefined,undefined,undefined,undefined,child)
         }
     })
+    //key的作用  比较两个节点是否是同一个
     return vnode(tag,props,key,children)
 }
